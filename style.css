@@ -45,9 +45,22 @@ header p {
   z-index: 1;
 }
 
-.image img {
-  width: 100px;
-  margin-top: 70px;
+.image1 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 90%;
+}
+
+.image2 img {
+  width: 300px;
+  margin-left: -1px;
+  border-radius: 90%;
+}
+
+.image3 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 90%;
 }
 
 .content {

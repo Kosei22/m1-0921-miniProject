@@ -95,3 +95,39 @@ header p {
 footer {
   height: 200px;
 }
+
+@media (max-width: 767px) {
+  body {
+    background-color: lightblue;
+  }
+
+  header {
+    height: 200px;
+    width: 100%;
+  }
+
+  .main {
+    margin-left: 0;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .contents {
+    margin-left: 100px;
+  }
+
+  .content {
+    width: 700px;
+    border-left: 3px solid black;
+  }
+
+  .content p {
+    margin: 20px auto;
+  }
+
+  footer {
+    height: 100px;
+  }
+}
